@@ -293,12 +293,12 @@ void Reports::writeXml(std::ostream & os, bool omitDuplicates)
                 {
                     os << "        <report rule=\"" << xmlEscape(rule)
                         << "\" line=\"" << lineNumber
-                        << "\">![CDATA[" << msg << "]]</report>\n";
+                        << "\"><![CDATA[" << msg << "]]></report>\n";
                 }
                 else
                 {
                     os << "        <report line=\"" << lineNumber
-                        << "\">![CDATA[" << msg << "]]</report>\n";
+                        << "\"><![CDATA[" << msg << "]]></report>\n";
                 }
 
                 lastLineNumber = lineNumber;
