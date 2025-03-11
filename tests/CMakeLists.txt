@@ -127,7 +127,7 @@ vera_add_test(XMLReport
   "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <vera>
     <file name=\"${CMAKE_CURRENT_SOURCE_DIR}/test.cpp\">
-        <report line=\"1\">![CDATA[no copyright notice found]]</report>
+        <report line=\"1\"><![CDATA[no copyright notice found]]></report>
     </file>
 </vera>\n"
   "" 0
@@ -141,7 +141,7 @@ vera_add_test(ShortXMLReport
   "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <vera>
     <file name=\"${CMAKE_CURRENT_SOURCE_DIR}/test.cpp\">
-        <report line=\"1\">![CDATA[no copyright notice found]]</report>
+        <report line=\"1\"><![CDATA[no copyright notice found]]></report>
     </file>
 </vera>\n"
   "" 0
